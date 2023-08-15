@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right bottom, #e1b382,#c89666);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.itemBtn{
+    margin: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #c89666;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+}
+
+.notDoneBtn{
+    border-radius: 4px;
+    border: none;
+    margin: 8px;
+}
+.itemUp{
+    border-radius: 4px;
+    margin: 8px;
+    border: none;
+}
+.itemDown{
+    border-radius: 4px;
+    margin: 8px;
+    border: none;
+}
+.listContainer{
+    margin-top: 20px;
+}
+.itemDoneStyle{
+    background-color: lightgreen;
+    text-decoration: line-through;
+}
+.list{
+    list-style: none;
+}
+.listContainer ul li{
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px;
+}

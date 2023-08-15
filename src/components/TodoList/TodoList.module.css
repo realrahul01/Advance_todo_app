@@ -1,0 +1,36 @@
+.todo_container{
+    border: 1px solid black;
+    margin-top: 20px;
+    min-height: 100px;
+    display: inline-block;
+    min-width: 600px;
+    list-style: none;
+    background-color: #12343b;
+    border-radius: 8px;
+}
+.todo_container input{
+    padding: 5px;
+}
+.parentBtn{
+    margin: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #c89666;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+}
+.length0Style{
+    margin: 8px;
+    border-radius: 4px;
+    border: none;   
+}
+.search_input{
+    margin-top: 2px;
+    margin-bottom: -10px;
+}
+.search_input input{
+    border-radius: 4px;
+    outline: none;
+    border: 0px;
+}
